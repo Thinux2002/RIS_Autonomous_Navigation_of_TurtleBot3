@@ -1,0 +1,72 @@
+[0.251s] Invoking command in '/home/thinal/turtlebot3_ws/build/my_simulations': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thinal/turtlebot3_ws/install/turtlebot3_teleop:/home/thinal/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake /home/thinal/turtlebot3_ws/src/my_simulations -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/thinal/turtlebot3_ws/install/my_simulations
+[0.369s] -- The C compiler identification is GNU 13.3.0
+[0.687s] -- The CXX compiler identification is GNU 13.3.0
+[0.988s] -- Detecting C compiler ABI info
+[1.198s] -- Detecting C compiler ABI info - done
+[1.206s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.207s] -- Detecting C compile features
+[1.207s] -- Detecting C compile features - done
+[1.266s] -- Detecting CXX compiler ABI info
+[1.482s] -- Detecting CXX compiler ABI info - done
+[1.490s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.490s] -- Detecting CXX compile features
+[1.490s] -- Detecting CXX compile features - done
+[1.496s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.682s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.750s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.831s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.964s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.964s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.965s] -- Added test 'lint_cmake' to check CMake code style
+[1.967s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.972s] -- Added test 'xmllint' to check XML markup files
+[1.975s] -- Configuring done (1.7s)
+[1.981s] -- Generating done (0.0s)
+[1.984s] -- Build files have been written to: /home/thinal/turtlebot3_ws/build/my_simulations
+[1.991s] Invoked command in '/home/thinal/turtlebot3_ws/build/my_simulations' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thinal/turtlebot3_ws/install/turtlebot3_teleop:/home/thinal/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake /home/thinal/turtlebot3_ws/src/my_simulations -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/thinal/turtlebot3_ws/install/my_simulations
+[1.992s] Invoking command in '/home/thinal/turtlebot3_ws/build/my_simulations': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thinal/turtlebot3_ws/install/turtlebot3_teleop:/home/thinal/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --build /home/thinal/turtlebot3_ws/build/my_simulations -- -j16 -l16
+[2.049s] Invoked command in '/home/thinal/turtlebot3_ws/build/my_simulations' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thinal/turtlebot3_ws/install/turtlebot3_teleop:/home/thinal/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --build /home/thinal/turtlebot3_ws/build/my_simulations -- -j16 -l16
+[2.049s] Invoking command in '/home/thinal/turtlebot3_ws/build/my_simulations': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thinal/turtlebot3_ws/install/turtlebot3_teleop:/home/thinal/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --install /home/thinal/turtlebot3_ws/build/my_simulations
+[2.061s] -- Install configuration: ""
+[2.061s] -- Execute custom install script
+[2.063s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/launch/maze_world.launch.py
+[2.076s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/launch/my_world.launch.py
+[2.090s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/worlds/build/.built_by
+[2.102s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/worlds/build/COLCON_IGNORE
+[2.116s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/worlds/empty_world.world
+[2.129s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/worlds/install/.colcon_install_layout
+[2.141s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/worlds/install/COLCON_IGNORE
+[2.154s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/worlds/install/_local_setup_util_ps1.py
+[2.169s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/worlds/install/_local_setup_util_sh.py
+[2.182s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/worlds/install/local_setup.bash
+[2.195s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/worlds/install/local_setup.ps1
+[2.208s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/worlds/install/local_setup.sh
+[2.221s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/worlds/install/local_setup.zsh
+[2.235s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/worlds/install/setup.bash
+[2.249s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/worlds/install/setup.ps1
+[2.261s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/worlds/install/setup.sh
+[2.274s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/worlds/install/setup.zsh
+[2.287s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/worlds/log/COLCON_IGNORE
+[2.300s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/worlds/log/build_2025-10-20_14-44-41/events.log
+[2.312s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/worlds/log/build_2025-10-20_14-44-41/logger_all.log
+[2.325s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/worlds/log/latest
+[2.339s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/worlds/log/latest_build
+[2.349s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/worlds/maze_world.world
+[2.363s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/models/maze/model.config
+[2.374s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/models/maze/model.sdf
+[2.388s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/ament_index/resource_index/package_run_dependencies/my_simulations
+[2.402s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/ament_index/resource_index/parent_prefix_path/my_simulations
+[2.415s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/environment/ament_prefix_path.sh
+[2.428s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/environment/ament_prefix_path.dsv
+[2.441s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/environment/path.sh
+[2.455s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/environment/path.dsv
+[2.468s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/local_setup.bash
+[2.480s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/local_setup.sh
+[2.494s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/local_setup.zsh
+[2.506s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/local_setup.dsv
+[2.519s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/package.dsv
+[2.533s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/ament_index/resource_index/packages/my_simulations
+[2.546s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/cmake/my_simulationsConfig.cmake
+[2.558s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/cmake/my_simulationsConfig-version.cmake
+[2.571s] -- Symlinking: /home/thinal/turtlebot3_ws/install/my_simulations/share/my_simulations/package.xml
+[2.587s] Invoked command in '/home/thinal/turtlebot3_ws/build/my_simulations' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thinal/turtlebot3_ws/install/turtlebot3_teleop:/home/thinal/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy /usr/bin/cmake --install /home/thinal/turtlebot3_ws/build/my_simulations

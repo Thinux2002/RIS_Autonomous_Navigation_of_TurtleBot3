@@ -1,0 +1,45 @@
+[0.065s] Invoking command in '/home/thinal/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/thinal/turtlebot3_ws/src/turtlebot3/turtlebot3_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/thinal/turtlebot3_ws/install/turtlebot3_cartographer
+[0.444s] -- The C compiler identification is GNU 13.3.0
+[0.963s] -- The CXX compiler identification is GNU 13.3.0
+[1.426s] -- Detecting C compiler ABI info
+[1.760s] -- Detecting C compiler ABI info - done
+[1.776s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.776s] -- Detecting C compile features
+[1.777s] -- Detecting C compile features - done
+[1.847s] -- Detecting CXX compiler ABI info
+[2.176s] -- Detecting CXX compiler ABI info - done
+[2.198s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.199s] -- Detecting CXX compile features
+[2.200s] -- Detecting CXX compile features - done
+[2.211s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.531s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.668s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.955s] -- Configuring done (2.8s)
+[2.967s] -- Generating done (0.0s)
+[2.972s] -- Build files have been written to: /home/thinal/turtlebot3_ws/build/turtlebot3_cartographer
+[2.983s] Invoked command in '/home/thinal/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/thinal/turtlebot3_ws/src/turtlebot3/turtlebot3_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/thinal/turtlebot3_ws/install/turtlebot3_cartographer
+[2.985s] Invoking command in '/home/thinal/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/thinal/turtlebot3_ws/build/turtlebot3_cartographer -- -j16 -l16
+[3.103s] Invoked command in '/home/thinal/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/thinal/turtlebot3_ws/build/turtlebot3_cartographer -- -j16 -l16
+[3.105s] Invoking command in '/home/thinal/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/thinal/turtlebot3_ws/build/turtlebot3_cartographer
+[3.125s] -- Install configuration: ""
+[3.126s] -- Execute custom install script
+[3.130s] -- Symlinking: /home/thinal/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[3.153s] -- Symlinking: /home/thinal/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[3.176s] -- Symlinking: /home/thinal/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[3.204s] -- Symlinking: /home/thinal/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[3.232s] -- Symlinking: /home/thinal/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[3.259s] -- Symlinking: /home/thinal/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[3.284s] -- Symlinking: /home/thinal/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[3.309s] -- Symlinking: /home/thinal/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[3.332s] -- Symlinking: /home/thinal/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[3.358s] -- Symlinking: /home/thinal/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[3.382s] -- Symlinking: /home/thinal/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[3.404s] -- Symlinking: /home/thinal/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[3.431s] -- Symlinking: /home/thinal/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[3.460s] -- Symlinking: /home/thinal/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[3.486s] -- Symlinking: /home/thinal/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[3.513s] -- Symlinking: /home/thinal/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[3.537s] -- Symlinking: /home/thinal/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[3.557s] -- Symlinking: /home/thinal/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[3.578s] -- Symlinking: /home/thinal/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[3.602s] Invoked command in '/home/thinal/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/thinal/turtlebot3_ws/build/turtlebot3_cartographer
